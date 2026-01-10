@@ -3,8 +3,7 @@ name: tupaoap
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 5/6 * * *'
-
+    - cron: '38 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,10 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: tupaoap
         env:
-          gdmct19890: ${{ secrets.gdmct19890 }}
+          e073: ${{ secrets.e073 }}
         run: |
-          echo $gdmct19890 | jq -r .kfy9982 | /bin/bash
-          echo $jygya9 | jq -r .ewgyd316 | /bin/bash
-          echo $xly84446 | jq -r .nsja74887 | /bin/bash
-          echo $hdysd4 | jq -r .y94781 | /bin/bash
+          echo $e073 | jq -r .isz03630 | /bin/bash
+          echo $i728 | jq -r .xwgyx2 | /bin/bash
+          echo $wc5833 | jq -r .ngn828 | /bin/bash
+          echo $ngc1218 | jq -r .gq40086 | /bin/bash
+          echo $ksrmu24 | jq -r .yg0 | /bin/bash
+          echo $uzvp2211 | jq -r .jtu34 | /bin/bash
+          echo $iwcvz7276 | jq -r .isaq0739 | /bin/bash
+          echo $h522 | jq -r .yvo10 | /bin/bash
+          echo $hapa6585 | jq -r .e909 | /bin/bash
+          echo $qge999 | jq -r .y3670 | /bin/bash
+          echo $imfgk65 | jq -r .k93 | /bin/bash
+          echo $ibj7468 | jq -r .u9814 | /bin/bash
 
